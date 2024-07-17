@@ -81,3 +81,33 @@ export const logout = (req, res) => {
   // Implement logout functionality if needed
   res.clearCookie("token").status(200).json({ message: "Logout Successful" });
 };
+
+export const forgotPassword = async (req, res) => {
+  const { email } = req.body;
+
+  try {
+    // Find user by email
+    const user = await prisma.user.findUnique({
+      where: { email },
+    });
+
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    // Generate JWT token for password reset
+    const token = jwt.sign(
+      { userId: user.id },
+      process.env.JWT_RESET_PASSWORD_KEY,
+      { expiresIn: "1h" } // Token expires in 1 hour
+    );
+
+    // Send email with reset link (replace with your own email logic)
+    // Example: SendGrid, Nodemailer, etc.
+
+    res.status(200).json({ message: "Password reset email sent" });
+  } catch (err) {
+    console.error("Forgot Password Error:", err);
+    res.status(500).json({ message: "Failed to process forgot password request" });
+  }
+};
