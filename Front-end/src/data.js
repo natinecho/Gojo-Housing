@@ -59,7 +59,7 @@ export const cards = {
             "images":[interior1,interior2,interior3,interior4,interior5],
 
                 "title": "Noah realstate",
-                "discriBoleption": " Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
+                "discription": "Bole Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
                 
                 "price" : "4500 birr/month",
                 "location" : "addis abeba",
@@ -79,7 +79,7 @@ export const cards = {
             "images":[interior1,interior2,interior3,interior4,interior5],
 
                 "title": "ayat realstate",
-                "discriBoleption": " Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
+                "discription": "Bole Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
                 
                 "price" : "4500 birr/month",
                 "location" : "addis abeba",
@@ -98,7 +98,7 @@ export const cards = {
             "images":[interior1,interior2,interior3,interior4,interior5],
 
                 "title": "lidata condominium",
-                "discriBoleption": " Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
+                "discription": " Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
                 
                 "price" : "4500 birr/month",
                 "location" : "addis abeba",
@@ -258,7 +258,7 @@ export const cards = {
             "images":[interior1,interior2,interior3,interior4,interior5],
 
                 "title": "Noah realstate",
-                "discriBoleption": " Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
+                "discription": "Bole Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
                 
 
                 "price" : "4500 birr/month",
@@ -279,7 +279,7 @@ export const cards = {
             "images":[interior1,interior2,interior3,interior4,interior5],
 
                 "title": "ayat realstate",
-                "discriBoleption": " Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
+                "discription": "Bole Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
                 
 
                 "price" : "4500 birr/month",
@@ -299,7 +299,7 @@ export const cards = {
             "images":[interior1,interior2,interior3,interior4,interior5],
 
                 "title": "lidata condominium",
-                "discriBoleption": " Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
+                "discription": "Bole Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
                 
                 "price" : "4500 birr/month",
                 "location" : "addis abeba",
@@ -321,7 +321,7 @@ export const cards = {
             "images":[interior1,interior2,interior3,interior4,interior5],
 
         "title": "ayat condominium",
-                "discriptionBole": " Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
+                "discription": "Bole Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
         
         "price" : "4500 birr/month",
         "location" : "addis abeba",
@@ -341,7 +341,7 @@ export const cards = {
             "images":[interior1,interior2,interior3,interior4,interior5],
 
         "title": "The appartment",
-                "discriptionBole": " Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
+                "discription": "Bole Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
         
         "price" : "4500 birr/month",
         "location" : "addis abeba",
@@ -420,7 +420,7 @@ export const cards = {
             "images":[interior1,interior2,interior3,interior4,interior5],
 
         "title": "ayat condominium",
-                "discriptionBole": " Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
+                "discription": "Bole Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
         
         "price" : "4500 birr/month",
         "location" : "addis abeba",
@@ -440,7 +440,7 @@ export const cards = {
             "images":[interior1,interior2,interior3,interior4,interior5],
 
         "title": "The appartment",
-                "discriptionBole": " Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
+                "discription": "Bole Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
         
         "price" : "4500 birr/month",
         "location" : "addis abeba",
@@ -557,7 +557,7 @@ export const cards = {
             "images":[interior1,interior2,interior3,interior4,interior5],
 
                 "title": "Noah realstate",
-                "discriBoleption": " Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
+                "discription": "Bole Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
                 
                 "price" : "4500 birr/month",
                 "location" : "addis abeba",
@@ -565,9 +565,9 @@ export const cards = {
     "bed":2,
     "room":6,
                 "owner":[
-                    "natnael necho",
+                    "name of owner",
                     "+25122332213",
-                    "natnael.necho@a2sv.org"
+                    "nndhhdd@gmail.com"
                 ]
                 },
              
@@ -577,7 +577,7 @@ export const cards = {
             "images":[interior1,interior2,interior3,interior4,interior5],
 
                 "title": "ayat realstate",
-                "discriBoleption": " Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
+                "discription": "Bole Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
                 
                 "price" : "4500 birr/month",
                 "location" : "addis abeba",
@@ -596,7 +596,7 @@ export const cards = {
             "images":[interior1,interior2,interior3,interior4,interior5],
 
                 "title": "lidata condominium",
-                "discriBoleption": " Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
+                "discription": "Bole Atlas, One Bedroom fully Furnished House or Apartment for Rent,Addis Ababa.The apartment is located in a safe residential compound and has an area of 60 meter square.It has living and dining room with open kitchen and bedroom with shower room.The rate is 950 USD or 55,000 Birr pre month and fixed and including all utility bills, WIFI internet, generator and cleaning service.Note: The minimum lease period is 6 months.",
                 
                 "price" : "4500 birr/month",
                 "location" : "addis abeba",

@@ -5,6 +5,7 @@ import card from "../data";
 import Navbar from "../component/Navbar";
 import MostViewed from "../component/MostViewed";
 import Footer from "../component/Footer";
+import location from "../asset/location.png";
 
 const Property_detail = () => {
   const params = new URLSearchParams(document.location.search);
@@ -69,7 +70,7 @@ const Property_detail = () => {
       </div>
       <div className="flex flex-col">
             <h1 className="font-bold text-4xl mt-10 m-6 text-center">Location</h1>
-            <img src={item.images[1]} alt={item.title} className="h-[330px]" />
+            <img src={location} alt={item.title} className="h-[330px]" />
       </div>
 
       <div className="m-6">

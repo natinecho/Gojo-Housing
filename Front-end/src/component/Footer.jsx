@@ -23,12 +23,12 @@ const Footer = () => {
                     <div className="flex">
                         <div className='flex flex-col'>
                             <Link className='hover:underline p-2' to="/"><ChevronRightIcon />Home</Link>
-                            <Link className='hover:underline p-2' to="/"><ChevronRightIcon />About Us</Link>
-                            <Link className='hover:underline p-2' to="/"><ChevronRightIcon />How it works?</Link>
+                            <Link className='hover:underline p-2' to="/howitworks"><ChevronRightIcon />About Us</Link>
+                            <Link className='hover:underline p-2' to="/howitworks"><ChevronRightIcon />How it works?</Link>
                         </div>
                         <div className='flex flex-col'>
-                            <Link className='hover:underline p-2' to="/"><ChevronRightIcon />Meet our Team</Link>
-                            <Link className='hover:underline p-2' to="/"><ChevronRightIcon />Rent House</Link>
+                            <Link className='hover:underline p-2' to="/meetourteam"><ChevronRightIcon />Meet our Team</Link>
+                            <Link className='hover:underline p-2' to="/uploadhome"><ChevronRightIcon />Rent House</Link>
                             <Link className='hover:underline p-2' to="/"><ChevronRightIcon />FAQ</Link>
                         </div>
                     </div>
