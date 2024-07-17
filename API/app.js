@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 import postRoute from "./routes/post.route.js"
 import authRoute from "./routes/auth.route.js"
@@ -7,6 +8,8 @@ import testRoute from "./routes/test.route.js"
 import userRoute from "./routes/user.route.js"
 import messageRoute from "./routes/message.route.js"
 import chatRoute from "./routes/chat.route.js"
+
+dotenv.config();
 
 const port = process.env.PORT || 8000
 
