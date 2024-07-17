@@ -12,7 +12,7 @@ const SignUp = () => {
     e.preventDefault();
 
     let formData = {
-      full_name: document.getElementById("fullname").value,
+      full_name: document.getElementById("name").value,
       email: document.getElementById("email").value,
       password: document.getElementById("password").value,
       password: document.getElementById("cpassword").value,
@@ -20,7 +20,7 @@ const SignUp = () => {
 
     try {
       let res = await axios.post(
-        "http://localhost:80/Udemy-clone/Backend/signup.php",
+        "http://localhost:8000/api/auth/register",
         formData
       );
       console.log(res.data);
