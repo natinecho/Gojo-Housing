@@ -15,7 +15,7 @@ const FAQItem = ({ question, answer }) => {
         <h2 className="font-bold text-lg ">{question}</h2>
         {isOpen ? <p><ArrowDropUpIcon /></p>:<p><ArrowDropDownIcon  /></p>}
       </div>
-      {isOpen && <p className="text-white pb-4 bg-[#0e28658a]">{answer}</p>}
+      {isOpen && <p className="pb-4 text-black">{answer}</p>}
     </div>
   );
 };

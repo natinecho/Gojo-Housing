@@ -11,51 +11,54 @@ const Property_detail = () => {
   const params = new URLSearchParams(document.location.search);
   const item = card["addis_abeba"][params.get("id")];
 
+  console.log(item);
+
   if (!item) {
     return <div>Item not found</div>;
   }
 
   return (
-    <div className="">
+    <div className="mt-20">
       <Navbar />
-      <div className="flex justify-between">
+      <div className="flex gap-2 justify-between overflow-hidden">
         <img src={item.images[0]} alt={item.title} className="w-3/4" />
-        <div className="flex flex-col w-1/4 gap-4">
+        <div className="flex flex-col w-1/4 gap-2">
           <img src={item.images[1]} alt={item.title} />
           <img src={item.images[2]} alt={item.title} />
           <img src={item.images[3]} alt={item.title} />
         </div>
       </div>
 
-      <div className="flex items-start m-4 w-full">
-        <div className="w-1/2">
-            <div className="m-6">
-                <h1 className="font-bold text-4xl mt-10">{item.title}</h1>
-                <div className="font-light flex gap-2 font-sm">{item.location}
-                    <div>{item.subcity}</div>
-                </div>
-                <div className="font-light flex gap-2 font-sm ">
-                    <div>{item.bed} Bedroom</div>
-                    <div>{item.room} Room</div>
-                </div>
-
+      <div className="flex  items-start my-4 w-full">
+        <div className="md:w-4/5">
+          <div className="m-6">
+            <h1 className="font-bold text-4xl mt-10">{item.title}</h1>
+            <div className="font-light flex gap-2 font-sm">
+              {item.location}
+              <div>{item.subcity}</div>
             </div>
-        <h1 className="font-bold text-4xl mt-10 ml-6">Discription</h1>
-        
-          <p className="m-6">{item.discription}</p>
+            <div className="font-light flex gap-2 font-sm ">
+              <div>{item.bed} Bedroom</div>
+              <div>{item.room} Room</div>
+            </div>
+            <p className="md:hidden font-bold">{item.price}</p>
+          </div>
+          <h1 className="font-bold text-4xl mt-10 ml-6">Discription</h1>
+
+          <p className="m-6">{item.description}</p>
         </div>
-        <div className="flex flex-col items-center justify-center w-1/2 gap-10">
+        <div className="hidden md:flex flex-col items-center justify-center gap-10">
           <p className="w-1/2 py-2 px-3 bg-[#F2F0F2] rounded-2xl font-bold text-center">
             {item.price}
           </p>
           <div className="w-1/2 flex flex-col font-bold items-center justify-center bg-[#F2F0F2] rounded-2xl">
             <p className="m-4 ">Contact Owner</p>
 
-            <div className="w-1/3 py-2">
+            <div className="w-1/3">
               <img
                 src={item.images[3]}
                 alt={item.title}
-                className="rounded-full"
+                className="rounded-full py-2 border object-cover"
               />
             </div>
             <p>{item.owner[0]}</p>
@@ -69,15 +72,15 @@ const Property_detail = () => {
         </div>
       </div>
       <div className="flex flex-col">
-            <h1 className="font-bold text-4xl mt-10 m-6 text-center">Location</h1>
-            <img src={location} alt={item.title} className="h-[330px]" />
+        <h1 className="font-bold text-4xl mt-10 m-6 text-center">Location</h1>
+        <img src={location} alt={item.title} className="h-[330px]" />
       </div>
 
       <div className="m-6">
         <h1 className="font-bold text-xl ml-5">simmilar Properties</h1>
-       < MostViewed homes={card["mekele"]}/>
+        <MostViewed homes={card["mekele"]} />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

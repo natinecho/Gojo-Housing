@@ -1,34 +1,19 @@
-import {Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import HouseCard from "./HouseCard";
 
-const MostViewed =({homes})=>{
-
-    return (
-        <>
-        <div className="flex flex-wrap gap-10 m-4">
-        {homes.map((item) => (
-          
-          <div
-            key={item.id}
-            className="w-[30%] flex flex-col items-center justify-around bg-[#374dcb4a] rounded-lg shadow-lg "
-          >
-          <Link to={`/property_detail?id=${item.id}`}>
-            <div className="flex flex-col items-start  justify-between items-between">
-              <img src={item.cover_image} alt="image_" className="h-[300px]"/>
-                <h3 className="text-black  font-bold text-xl ">
-                  {item.title}
-                </h3>
-                <div className="space-x-4 items-center">
-                  <h3 className="text-black font-bold">{item.price}</h3>
-                </div>
-                <div>
-                  <h3 className="text-2xs">{item.location}</h3>
-                </div>
+const MostViewed = ({ homes }) => {
+  return (
+    <>
+      {/* <div className=" flex items-center justify-center"> */}
+        <div className="flex flex-wrap items-center justify-center sm:items-start sm:justify-normal gap-5 m-4">
+          {homes?.map((item) => (
+            <div key={item.id} className="w-[85%] sm:w-[30%] lg:w-[23%]">
+              <HouseCard item={item} />
             </div>
-        </Link>
-          </div>
-        ))}
+          ))}
         </div>
-        </>
-    )
-}
+      {/* </div> */}
+    </>
+  );
+};
 export default MostViewed;
